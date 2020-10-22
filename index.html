@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery</title>
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <!-- Font Awsome CDN -->
+    <script src="https://kit.fontawesome.com/b06817bd37.js" crossorigin="anonymous"></script>
+
+    <!-- Slick Slider -->
+
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+
+
+    <!-- Custom Stylesheet -->
+
+    <link rel="icon" href="img/Fevicon.png" type="image/png">
+    <link rel="stylesheet" href="vendors/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="vendors/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="vendors/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="vendors/linericon/style.css">
+    <link rel="stylesheet" href="vendors/owl-carousel/owl.theme.default.min.css">
+    <link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
+
+    <link rel="stylesheet" href="css/details_style.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- header -->
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-12 col-12">
+                    <div class="btn-group">
+                        <button class="btn border dropdown-toggle my-md-4 my-2 text-white" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">KZT
+                        </button>
+                        <div class="dropdown-menu">
+                            <a href="#" class="dropdown-item">USD</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-12 text-center">
+                    <h2 class="my-md-3 site-title text-white">Online Grocery</h2>
+                </div>
+                <div class="col-md-4 col-12 text-right">
+                    <p class="my-md-4 header-links">
+                        <a href="login.html" class="px-2">Sign in</a>
+                        <a href="#" class="px-1">Register</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid p-0">
+            <nav class="navbar navbar-expand-lg navbar-light bg-white">
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">SHOP</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        CATEGORY
+                      </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">VEGETABLES</a>
+                                <a class="dropdown-item" href="#">FRUITS</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Others</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="navbar-nav">
+
+                    <li class="nav-item border rounded-circle mx-2 search-icon">
+                        <i class="fas fa-search p-2"></i>
+                    </li>
+                    <li class="nav-item border rounded-circle mx-2 basket-icon">
+                        <a href="cart.html"><i class="fas fa-shopping-basket p-2"></i></a>
+                        <span class="nav-shop__circle">3</span>
+                    </li>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- /header -->
+
+    <!-- Main section -->
+    <main>
+        <!-- First slider -->
+        <div class="container-fluid p-0">
+            <div class="site-slider">
+                <div class="slider-one">
+                    <div>
+                        <img src="images/ba2.jpg" class="img-fluid" alt="Banner 1" />
+                    </div>
+                    <div>
+                        <img src="images/ba1.jpg" class="img-fluid" alt="Banner 2" />
+                    </div>
+                    <div>
+                        <img src="images/ba.jpg" class="img-fluid" alt="Banner 3" />
+                    </div>
+
+                </div>
+                <div class="slider-btn">
+                    <span class="prev postion-top"><i class="fas fa-chevron-left"></i></span>
+                    <span class="next postion-top right-0"><i class="fas fa-chevron-right"></i></span>
+                </div>
+            </div>
+        </div>
+        <!-- /First slider -->
+
+        <!-- Second slider -->
+        <div class="container-fluid">
+            <div class="site-slider-two px-md-4">
+                <div class="row slider-two text-center">
+                    <div class="col-md-2 product pt-md-5 pt-4">
+                        <img src="/images/co.jpg" alt="Product 1" style="width: 220px;" />
+                        <span class="border site-btn btn-span">Apples</span>
+                    </div>
+                    <div class="col-md-2 product pt-md-5 pt-4">
+                        <img src="/images/co1.jpg" alt="Product 2" style="width: 220px;" />
+                        <span class="border site-btn btn-span">Species</span>
+                    </div>
+                    <div class="col-md-2 product pt-md-5 pt-4">
+                        <img src="/images/ki.jpg" alt="Product 3" style="width: 220px;" />
+                        <span class="border site-btn btn-span">Beans</span>
+                    </div>
+                    <div class="col-md-2 product pt-md-5 pt-4">
+                        <img src="/images/co3.jpg" alt="Product 4" style="width: 220px;" />
+                        <span class="border site-btn btn-span">Vegetables</span>
+                    </div>
+                    <div class="col-md-2 product pt-md-5 pt-4">
+                        <img src="/images/ki2.jpg" alt="Product 5" style="width: 220px;" />
+                        <span class="border site-btn btn-span">Chili</span>
+                    </div>
+                    <div class="col-md-2 product pt-md-5 pt-4">
+                        <img src="/images/ki1.jpg" alt="Product 6" style="width: 220px;" />
+                        <span class="border site-btn btn-span">Salads</span>
+                    </div>
+                </div>
+                <div class="slider-btn">
+                    <span class="prev postion-top"><i class="fas fa-chevron-left fa-2x text-secondary"></i></span>
+                    <span class="next postion-top right-0"><i class="fas fa-chevron-right fa-2x text-secondary"></i></span>
+                </div>
+            </div>
+        </div>
+        <!-- /Second slider -->
+
+        <hr class="hr">
+
+        <!-- Features Section -->
+        <div class="container text-center">
+            <div class="features">
+                <h1>Features Proucts</h1>
+                <p class="text-secondary">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...</p>
+            </div>
+        </div>
+        <!-- Features 3rd Slider -->
+        <div class="container-fluid">
+            <div class="site-slider-three px-md-4">
+                <div class="slider-three row text-center px-4">
+                    <div class="col-md-2 product pt-md-5">
+                        <a href="product_page.html"><img src="./images/of.png" class="img-fluid" alt="image-1"></a>
+                        <div class="cart-details">
+                            <h6 class="pro-title p-0">Lorem Beans</h6>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                        <div class="pro-price py-2">
+                            <h5>
+                                <small><s class="text-secondary">$30.99</s></small>
+                                <span>$20</span>
+                            </h5>
+                        </div>
+                        <div class="cart mt-4">
+                            <button class="btn btn-primary">Add to Cart</button>
+                        </div>
+                    </div>
+
+                    <div class="col-md-2 product pt-md-5">
+                        <img src="./images/of1.png" class="img-fluid" alt="image-2">
+                        <div class="cart-details">
+                            <h6 class="pro-title p-0">Lorem Sun Flower Oil</h6>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="pro-price py-2">
+                            <h5>
+                                <small><s class="text-secondary">$11</s></small>
+                                <span>$5.99</span>
+                            </h5>
+                        </div>
+                        <div class="cart mt-4">
+                            <button class="btn btn-primary">Add to Cart</button>
+                        </div>
+                    </div>
+
+                    <div class="col-md-2 product pt-md-5">
+                        <img src="./images/of2.png" class="img-fluid" alt="image-3">
+                        <div class="cart-details">
+                            <h6 class="pro-title p-0">Pro Natural Nuts</h6>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="pro-price py-2">
+                            <h5>
+                                <small><s class="text-secondary">$20</s></small>
+                                <span>$17.99</span>
+                            </h5>
+                        </div>
+                        <div class="cart mt-4">
+                            <button class="btn btn-primary">Add to Cart</button>
+                        </div>
+                    </div>
+
+                    <div class="col-md-2 product pt-md-5">
+                        <img src="./images/of3.png" class="img-fluid" alt="image-4">
+                        <div class="cart-details">
+                            <h6 class="pro-title p-0">Nurtrela simi chunks</h6>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="pro-price py-2">
+                            <h5>
+                                <span>$22</span>
+                            </h5>
+                        </div>
+                        <div class="cart mt-4">
+                            <button class="btn btn-primary">Add to Cart</button>
+                        </div>
+                    </div>
+
+                    <div class="col-md-2 product pt-md-5">
+                        <img src="./images/of8.png" class="img-fluid" alt="image-5">
+                        <div class="cart-details">
+                            <h6 class="pro-title p-0">Banana</h6>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-alt"></i>
+                            </div>
+                        </div>
+                        <div class="pro-price py-2">
+                            <h5>
+                                <span>$7</span>
+                            </h5>
+                        </div>
+                        <div class="cart mt-4">
+                            <button class="btn btn-primary">Add to Cart</button>
+                        </div>
+                    </div>
+
+                    <div class="col-md-2 product pt-md-5">
+                        <img src="./images/of9.png" class="img-fluid" alt="image-6">
+                        <div class="cart-details">
+                            <h6 class="pro-title p-0">Onion</h6>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="pro-price py-2">
+                            <h5>
+                                <small><s class="text-secondary">$3</s></small>
+                                <span>$1.99</span>
+                            </h5>
+                        </div>
+                        <div class="cart mt-4">
+                            <button class="btn btn-primary">Add to Cart</button>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="slider-btn">
+                    <span class="prev postion-top"><i class="fas fa-chevron-left fa-2x text-secondary"></i></span>
+                    <span class="next postion-top right-0"><i class="fas fa-chevron-right fa-2x text-secondary"></i></span>
+                </div>
+            </div>
+        </div>
+        <!-- /Features 3rd Slider -->
+
+        <!-- /Features Section -->
+    </main>
+
+    <!-- /Main section -->
+    <!--================ Start footer Area  =================-->
+    <footer>
+        <div class="footer-area footer-only">
+            <div class="container">
+                <div class="row section_gap">
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="single-footer-widget tp_widgets ">
+                            <h4 class="footer_title large_title">Our Mission</h4>
+                            <p>
+                                So seed seed green that winged cattle in. Gathering thing made fly you're no divided deep moved us lan Gathering thing us land years living.
+                            </p>
+                            <p>
+                                So seed seed green that winged cattle in. Gathering thing made fly you're no divided deep moved
+                            </p>
+                        </div>
+                    </div>
+                    <div class="offset-lg-1 col-lg-2 col-md-6 col-sm-6">
+                        <div class="single-footer-widget tp_widgets">
+                            <h4 class="footer_title">Quick Links</h4>
+                            <ul class="list">
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">Shop</a></li>
+                                <li><a href="#">Review</a></li>
+                                <li><a href="#">Product</a></li>
+                                <li><a href="#">Brand</a></li>
+                                <li><a href="#">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-6">
+                        <div class="single-footer-widget instafeed">
+                            <h4 class="footer_title">Gallery</h4>
+                            <ul class="list instafeed d-flex flex-wrap">
+                                <li><img src="images/ab.jpg" style="width: 100px;" alt=""></li>
+                                <li><img src="images/ab1.jpg" style="width: 100px;" alt=""></li>
+
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="offset-lg-1 col-lg-3 col-md-6 col-sm-6">
+                        <div class="single-footer-widget tp_widgets">
+                            <h4 class="footer_title">Contact Us</h4>
+                            <div class="ml-40">
+
+                                <p class="sm-head">
+                                    <span class="fa fa-phone"></span> Phone Number
+                                </p>
+                                <p>
+                                    8(747)7334496
+                                </p>
+
+                                <p class="sm-head">
+                                    <span class="fa fa-envelope"></span> Email
+                                </p>
+                                <p>
+                                    meirerbol@gmail.com
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row d-flex">
+                    <p class="col-lg-12 footer-text text-center">
+                        Copyright &copy Erbol Meiyr;
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
